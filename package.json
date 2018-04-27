@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --disable-host-check",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -23,6 +23,7 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
+    "sweetalert2": "^7.19.1",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
